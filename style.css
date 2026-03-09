@@ -1,0 +1,44 @@
+.kurslar{
+    margin: 10px;
+    border: 1px solid black;
+    padding: 5px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.box
+{
+max-width: 400px;
+border: 1px solid black;
+border-radius: 11px;
+}
+.box img
+{
+   width: 100%;
+   border-top-left-radius: 11px;
+   border-top-right-radius: 11px;
+}
+.box.content
+{
+  color: blue;
+  padding: 10px;
+}
+.box.content h1{
+    text-align: center;
+}
+.box.content p{
+    text-align: justify;
+}
+.box.content.price
+{
+
+ font-size: 24px;
+ font-weight: bold;
+ display: flex;
+ justify-content: space-between;
+}
+.box.content.price h2
+{
+ text-align: center;
+}
